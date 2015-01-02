@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 Des 14, 2:27:52
+    Author     : Gigabyte
+*/
+
+body {margin: 0; padding: 0; width: 100%; height: 768px; font-family: "Trebuchet MS"; position: relative;}
+#mapCanvas {margin: 0 auto; width: 100%; height: 100%;}
+#directionsPanel {position: absolute; top: 0; left: 0; background: #fff; box-shadow:0px 1px 10px rgba(0,0,0,0.2); border-left: none; border-top: none; }
+#directionsPanel a {display: block; text-decoration:none; clear: both;}
+#useGPS {margin-bottom: 3px; border-radius: 0;}
+.atau {text-align: center; font-weight: bold; margin: 0 0 0px; color: #999;}
+.directionInputs label {padding:2px 8px; margin-right: 10px}
+.directionInputs input, select {border-radius: 0;}
+.directionInputs #getDirections, .directionInputs #paneReset {border-radius: 0;}
+.directionInputs #paneReset {}
+#paneToggle {position: absolute; color: #999; width: 15px; padding: 0 3px; text-align: center; font-weight: bold; font-size: 16px; border-left: none; top: 0; right: -15px;}
+#directionSteps {clear: both; width:100%; height: 100%; margin: 10px 0 0 0; font-size: 11px; line-height: normal; height: 395px; overflow: auto;}
+#directionSteps p {font-size: 13px; color: #999}
+
+.gmap-control-container {
+    margin: 5px;
+}
+
+.gmap-control {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -moz-user-select: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #717B87 -moz-use-text-color #717B87 #717B87;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    color: #333333 !important;
+    cursor: pointer;
+    direction: ltr;
+    font-family: Arial,sans-serif !important;
+    font-size: 13px !important;
+    font-weight: normal;
+    min-width: 54px;
+    overflow: hidden;
+    padding: 1px 6px;
+    position: relative;
+    right: -10px;
+    text-align: center;
+}
+
+.gmap-control-active {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #6D8ACC;
+    border-color: #717B87 -moz-use-text-color #717B87 #717B87;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
